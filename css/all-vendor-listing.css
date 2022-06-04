@@ -32,21 +32,26 @@
     border: 1px solid #9EA2BB;
 }
 
-.main-header .header-list h5, .navbar ul li a {
+.main-header .header-list h5 {
     color: #012762;
 }
 
 @media(max-width:769px){
-    .main-header .header-list h5, .navbar ul li a {
+    .main-header .header-list h5 {
        font-size: 14px;
     } 
+
 }
 
 @media(max-width:426px){
     .main-header .header-list{
      flex-direction: column;
     }
-    .main-header .header-list h5, .navbar ul li a{
+    .main-header .header-list h5{
         font-size: 20px;
+    }
+
+    .main-header{
+       display: none !important;
     }
 }
